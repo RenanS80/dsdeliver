@@ -4,7 +4,6 @@ type Props = {
     product: Product
 }
 
-{/* Formatação de preços com R$ e vírgula com 2 casas decimais */}
 function formatPrice(price: number){
     const formatter = new Intl.NumberFormat('pt-BR', {
         style: 'currency',
